@@ -1,10 +1,20 @@
+@font-face {
+    font-family: fuenteParrafo;
+    src: url(Caveat-Regular.ttf);
+  }
+  @font-face {
+    font-family: fuenteTitulo;
+    src: url(Caveat-Bold.ttf);
+  }
 body{
     background-color: #f1f1f1;
     margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: mifuente;
 }
 p{
     color: purple;
+    font-family: fuenteParrafo;
+    font-size: larger;
 }
 img{
     border: 2px solid  green;
@@ -14,33 +24,35 @@ img{
     font-weight: bold;
     color: blueviolet;
 }
-h1 { 
+h1,h2 { 
     width: 500px;     
     position:sticky; 
     left: 20px; 
     line-height: 60px; 
-    font-size: 50px; 
+    font-size: 25px; 
     font-weight: 100; 
     margin: 20px 0 0 0; 
     text-shadow: 0 1px 0 #f1f1f1; 
+    font-family: fuenteTitulo;
 }
 
 /*
     comentario
     codigo de la pagina https://frontendmasters.github.io/bootcamp/
 */
-
+/*
 .lesson-title {
     font-size: 32px;  
     font-family: PosterizerKGRough,Courier New,Courier,monospace;
     color: #2c2825;
-}
+}*/
 
 p{
     color: #923a21;
     padding-left: 0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-family: fuenteParrafo;
 }
+/*
 h2{
     font-family: PosterizerKGRough,Courier New,Courier,monospace;
-}
+}*/
