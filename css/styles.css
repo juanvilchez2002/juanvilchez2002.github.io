@@ -1,11 +1,12 @@
 @font-face {
     font-family: fuenteParrafo;
     src: url(Caveat-Regular.ttf);
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: fuenteTitulo;
     src: url(Caveat-Bold.ttf);
-  }
+}
 body{
     background-color: #f1f1f1;
     margin: 0;
