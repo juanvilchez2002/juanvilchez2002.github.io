@@ -9,13 +9,25 @@
 }
 body{
     background-color: #f1f1f1;
-    margin: 0;
     font-family: mifuente;
 }
+.cuadro{
+    border: 5px solid brown;
+    padding: 0 2em;
+    margin: 0 20%;
+}
+img {
+    border: 2px solid #42352c;
+    border-radius: 15px;
+}
 p{
-    color: purple;
     font-family: fuenteParrafo;
-    font-size: medium;
+    line-height: 1.5em;
+    font-size: 15px;
+    border: 0px dotted blue;
+    font-family: fuenteParrafo;
+    padding: 0 2em 1em 1em;
+    margin: 0;
 }
 img{
     border: 2px solid  green;
@@ -26,10 +38,15 @@ img{
     color: blueviolet;
 }
 h1,h2 {  
-    font-size: 30px; 
+    font-size: 30px;    
     font-family: fuenteTitulo;
+    color: green;
+    border: 0 solid blue;
+    margin-bottom: .5em;
 }
-
+h2{
+    font-size: 20px; 
+}
 /*
     comentario
     codigo de la pagina https://frontendmasters.github.io/bootcamp/
@@ -41,11 +58,6 @@ h1,h2 {
     color: #2c2825;
 }*/
 
-p{
-    color: #923a21;
-    padding-left: 0;
-    font-family: fuenteParrafo;
-}
 /*
 h2{
     font-family: PosterizerKGRough,Courier New,Courier,monospace;
