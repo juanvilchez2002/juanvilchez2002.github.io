@@ -1,11 +1,11 @@
 @font-face {
     font-family: fuenteParrafo;
-    src: url(Caveat-Regular.ttf);
+    src: url(Paprika-Regular.ttf);
 }
 
 @font-face {
     font-family: fuenteTitulo;
-    src: url(Caveat-Bold.ttf);
+    src: url(Paprika-Regular.ttf);
 }
 body{
     background-color: #f1f1f1;
@@ -15,7 +15,7 @@ body{
 p{
     color: purple;
     font-family: fuenteParrafo;
-    font-size: larger;
+    font-size: medium;
 }
 img{
     border: 2px solid  green;
@@ -25,15 +25,8 @@ img{
     font-weight: bold;
     color: blueviolet;
 }
-h1,h2 { 
-    width: 500px;     
-    position:sticky; 
-    left: 20px; 
-    line-height: 60px; 
-    font-size: 25px; 
-    font-weight: 100; 
-    margin: 20px 0 0 0; 
-    text-shadow: 0 1px 0 #f1f1f1; 
+h1,h2 {  
+    font-size: 30px; 
     font-family: fuenteTitulo;
 }
 
