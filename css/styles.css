@@ -7,10 +7,7 @@
     font-family: fuenteTitulo;
     src: url(Paprika-Regular.ttf);
 }
-body{
-    background-color: #f1f1f1;
-    font-family: mifuente;
-}
+
 .cuadro{
     border: 5px solid brown;
     padding: 0 2em;
@@ -38,15 +35,11 @@ img{
     color: blueviolet;
 }
 h1,h2 {  
-    font-size: 30px;    
     font-family: fuenteTitulo;
     color: green;
     border: 0 solid blue;
     margin-bottom: .5em;
-}
-h2{
-    font-size: 20px; 
-}
+} 
 /*
     comentario
     codigo de la pagina https://frontendmasters.github.io/bootcamp/
