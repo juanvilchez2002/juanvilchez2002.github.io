@@ -7,14 +7,74 @@
     font-family: fuenteTitulo;
     src: url(Paprika-Regular.ttf);
 }
-
-.cuadro{
-    border: 5px solid brown;
+body{
+    background-image: url("../images/libros-2.jpg");
+}
+nav{
+    background-color: #cb997e;    
+    font-family: fuenteTitulo;
+}
+header img{    
+    border: 2px solid #cb997e;
+    border-radius: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+    color: #52796f;
+}
+nav a:visited{
+    color: #2f3e46;
+}
+nav a:focus{
+    border: 1px dotted #000000;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+header{
+    background-color: #ddbea9;
+    font-size: 3.5em;
+    text-align: center;
+    padding: 2rem;
+    font-family: fuenteTitulo;
+}
+article{
     padding: 0 2em;
+    background-color: #f0efeb;
+}
+article a{
+    text-decoration: none;
+}
+article a:link{
+    color: #774936;
+}
+article a:visited{
+    color: #ee6c4d;
+}
+article a:focus{
+    border: 1px dotted #000000;
+}
+article a:hover{
+    text-decoration: underline;
+}
+
+article ul{
+    list-style-type: square;
+}
+article ol{
+    list-style-type: lower-roman;
+}
+nav, header, article{    
     margin: 0 20%;
 }
 img {
-    border: 2px solid #42352c;
+    border: 2px solid brown;
     border-radius: 15px;
 }
 p{
@@ -25,9 +85,7 @@ p{
     font-family: fuenteParrafo;
     padding: 0 2em 1em 1em;
     margin: 0;
-}
-img{
-    border: 2px solid  green;
+    color: #264653;
 }
 .resaltar{
     font-style: italic;
@@ -38,8 +96,18 @@ h1,h2 {
     font-family: fuenteTitulo;
     color: green;
     border: 0 solid blue;
-    margin-bottom: .5em;
 } 
+h1{
+    font-size: 2em;
+    margin: 0;
+    padding-top: 1em;
+}
+h2{
+    color: #2b2d42;
+}
+
+
+
 /*
     comentario
     codigo de la pagina https://frontendmasters.github.io/bootcamp/

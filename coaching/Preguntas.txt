@@ -1,0 +1,5 @@
+Clase 15
+cuando se agrega las etiquetas ul se observa que el padding no se hereda ni el margin de nav
+
+imagen 1 -> información de ul
+imagen 2 -> información de nav
