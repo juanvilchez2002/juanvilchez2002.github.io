@@ -20,6 +20,8 @@ header img{
 }
 nav a{
     text-decoration: none;
+    display: block;
+    padding: 1rem;
 }
 nav a:link{
     color: #52796f;
@@ -31,11 +33,23 @@ nav a:focus{
     border: 1px dotted #000000;
 }
 nav a:hover{
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 nav ul{
     list-style: none;
     margin: 0;
+    text-align: center;
+}
+nav li{
+    border: 1px solid #fff1e6;
+    width: 10rem;
+    text-align: center;
+    display: inline-block;
+    background-color: #774936;
+    color: whitesmoke;
+}
+nav li:hover{
+    background-color: #cb997e;
 }
 header{
     background-color: #ddbea9;
@@ -72,6 +86,7 @@ article ol{
 }
 nav, header, article{    
     margin: 0 20%;
+    border: 0 dotted black
 }
 img {
     border: 2px solid brown;
@@ -81,7 +96,7 @@ p{
     font-family: fuenteParrafo;
     line-height: 1.5em;
     font-size: 15px;
-    border: 0px dotted blue;
+    border: 0 dotted blueviolet;
     font-family: fuenteParrafo;
     padding: 0 2em 1em 1em;
     margin: 0;
