@@ -1,0 +1,75 @@
+@font-face {
+    font-family: fuenteParrafo;
+    src: url(Paprika-Regular.ttf);
+}
+
+@font-face {
+    font-family: fuenteTitulo;
+    src: url(Paprika-Regular.ttf);
+}
+body{
+    font-family: fuenteParrafo;
+}
+header{
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem;
+    font-family: fuenteTitulo;
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: letf;
+    color: black;
+}
+nav li{
+    display: inline-block;
+    font-size: 1rem; 
+    text-align: center;
+    color: black;
+
+}
+nav li:hover{
+    background-color: black;
+    color:  white;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: .5rem;
+    color: black;
+}
+nav a:link{
+    color: black;
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover{
+    color: white;
+}
+a{
+    width: 6rem;
+}
+nav, header, article{    
+    margin: 0 15%;
+}
+hr{
+    margin: 0 15%;
+}
+.alinearizq{
+    float: left;    
+    margin: 0 1rem 0 0 ;
+}
+article{
+    background-color: whitesmoke;
+}
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1,p{
+    margin: 1rem 1.5rem 0 0 ;
+}
