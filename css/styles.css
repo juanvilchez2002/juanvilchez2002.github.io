@@ -37,14 +37,18 @@ nav ul{
     list-style: none;
     margin: 0;
     text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 nav li{
     border: 1px solid #fff1e6;
-    width: 10rem;
+    width: 150rem;
     text-align: center;
     display: inline-block;
     background-color: #774936;
     color: whitesmoke;
+    flex-basis: 25% ;
 }
 nav li:hover{
     background-color: #cb997e;
